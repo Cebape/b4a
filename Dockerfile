@@ -5,7 +5,7 @@ RUN apt-get update -y
 RUN apt-get install nginx -y
 
 
-COPY index.html /var/www/html/infex.html
+COPY index.html /var/www/html/index.html
 
 
 EXPOSE 80
